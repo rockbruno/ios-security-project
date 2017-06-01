@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U5o-c5-Jzo">
+                                <rect key="frame" x="112" y="318" width="151" height="30"/>
+                                <color key="backgroundColor" red="0.74726764896373055" green="0.74167311952775494" blue="0.74535493529219188" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="LCJ-mV-IiM"/>
+                                    <constraint firstAttribute="width" constant="151" id="i0u-GW-Okb"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Admin area. Enter your password:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTF-F9-f5F">
+                                <rect key="frame" x="34" y="269" width="307" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uH5-6U-uYK">
+                                <rect key="frame" x="90" y="385" width="196" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="196" id="hOS-0q-xez"/>
+                                    <constraint firstAttribute="height" constant="30" id="p8k-qh-lKW"/>
+                                </constraints>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tXX-Fo-1Ew"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eTF-F9-f5F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6En-Gd-dJ6"/>
+                            <constraint firstItem="uH5-6U-uYK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DA0-8b-Scy"/>
+                            <constraint firstItem="uH5-6U-uYK" firstAttribute="top" secondItem="U5o-c5-Jzo" secondAttribute="bottom" constant="37" id="FBE-wl-hQl"/>
+                            <constraint firstItem="U5o-c5-Jzo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NZK-YW-MYP"/>
+                            <constraint firstItem="U5o-c5-Jzo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UeK-bb-47A"/>
+                            <constraint firstItem="eTF-F9-f5F" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-54" id="Xdg-nn-bzC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="passField" destination="U5o-c5-Jzo" id="oav-Jo-ijU"/>
+                        <outlet property="titleLabel" destination="eTF-F9-f5F" id="Nh0-BW-Cvj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
