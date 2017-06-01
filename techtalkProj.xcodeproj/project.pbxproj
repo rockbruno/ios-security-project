@@ -10,10 +10,11 @@
 		FDA6EFA41E7B38290021385B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA6EFA31E7B38290021385B /* StoreKit.framework */; };
 		FDC8F5821E6A50EB005FB98C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC8F5811E6A50EB005FB98C /* main.m */; };
 		FDC8F5851E6A50EB005FB98C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC8F5841E6A50EB005FB98C /* AppDelegate.m */; };
-		FDC8F5881E6A50EB005FB98C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC8F5871E6A50EB005FB98C /* ViewController.m */; };
+		FDC8F5881E6A50EB005FB98C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC8F5871E6A50EB005FB98C /* LoginViewController.m */; };
 		FDC8F58B1E6A50EB005FB98C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC8F5891E6A50EB005FB98C /* Main.storyboard */; };
 		FDC8F58D1E6A50EB005FB98C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC8F58C1E6A50EB005FB98C /* Assets.xcassets */; };
 		FDC8F5901E6A50EB005FB98C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC8F58E1E6A50EB005FB98C /* LaunchScreen.storyboard */; };
+		FDEE71D91EE0407500A0DA02 /* WatchpointsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEE71D81EE0407500A0DA02 /* WatchpointsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +23,14 @@
 		FDC8F5811E6A50EB005FB98C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDC8F5831E6A50EB005FB98C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FDC8F5841E6A50EB005FB98C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FDC8F5861E6A50EB005FB98C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FDC8F5871E6A50EB005FB98C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDC8F5861E6A50EB005FB98C /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FDC8F5871E6A50EB005FB98C /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		FDC8F58A1E6A50EB005FB98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDC8F58C1E6A50EB005FB98C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDC8F58F1E6A50EB005FB98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDC8F5911E6A50EB005FB98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDEE71D71EE0407500A0DA02 /* WatchpointsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchpointsViewController.h; sourceTree = "<group>"; };
+		FDEE71D81EE0407500A0DA02 /* WatchpointsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchpointsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +75,10 @@
 			children = (
 				FDC8F5831E6A50EB005FB98C /* AppDelegate.h */,
 				FDC8F5841E6A50EB005FB98C /* AppDelegate.m */,
-				FDC8F5861E6A50EB005FB98C /* ViewController.h */,
-				FDC8F5871E6A50EB005FB98C /* ViewController.m */,
+				FDC8F5861E6A50EB005FB98C /* LoginViewController.h */,
+				FDC8F5871E6A50EB005FB98C /* LoginViewController.m */,
+				FDEE71D71EE0407500A0DA02 /* WatchpointsViewController.h */,
+				FDEE71D81EE0407500A0DA02 /* WatchpointsViewController.m */,
 				FDC8F5891E6A50EB005FB98C /* Main.storyboard */,
 				FDC8F58C1E6A50EB005FB98C /* Assets.xcassets */,
 				FDC8F58E1E6A50EB005FB98C /* LaunchScreen.storyboard */,
@@ -163,7 +168,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDC8F5881E6A50EB005FB98C /* ViewController.m in Sources */,
+				FDC8F5881E6A50EB005FB98C /* LoginViewController.m in Sources */,
+				FDEE71D91EE0407500A0DA02 /* WatchpointsViewController.m in Sources */,
 				FDC8F5851E6A50EB005FB98C /* AppDelegate.m in Sources */,
 				FDC8F5821E6A50EB005FB98C /* main.m in Sources */,
 			);
