@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD74317D1EFB0FCD00660299 /* StorageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD74317C1EFB0FCD00660299 /* StorageViewController.m */; };
+		FD7431851EFB116B00660299 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7431821EFB116B00660299 /* SAMKeychain.m */; };
+		FD7431861EFB116B00660299 /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7431841EFB116B00660299 /* SAMKeychainQuery.m */; };
 		FDA6EFA41E7B38290021385B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA6EFA31E7B38290021385B /* StoreKit.framework */; };
 		FDC8F5821E6A50EB005FB98C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC8F5811E6A50EB005FB98C /* main.m */; };
 		FDC8F5851E6A50EB005FB98C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC8F5841E6A50EB005FB98C /* AppDelegate.m */; };
@@ -18,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD74317B1EFB0FCD00660299 /* StorageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageViewController.h; sourceTree = "<group>"; };
+		FD74317C1EFB0FCD00660299 /* StorageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageViewController.m; sourceTree = "<group>"; };
+		FD7431811EFB116B00660299 /* SAMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychain.h; sourceTree = "<group>"; };
+		FD7431821EFB116B00660299 /* SAMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychain.m; sourceTree = "<group>"; };
+		FD7431831EFB116B00660299 /* SAMKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychainQuery.h; sourceTree = "<group>"; };
+		FD7431841EFB116B00660299 /* SAMKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychainQuery.m; sourceTree = "<group>"; };
 		FDA6EFA31E7B38290021385B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		FDC8F57D1E6A50EB005FB98C /* techtalkProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = techtalkProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC8F5811E6A50EB005FB98C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +54,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD7431871EFB117100660299 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				FD7431811EFB116B00660299 /* SAMKeychain.h */,
+				FD7431821EFB116B00660299 /* SAMKeychain.m */,
+				FD7431831EFB116B00660299 /* SAMKeychainQuery.h */,
+				FD7431841EFB116B00660299 /* SAMKeychainQuery.m */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
 		FDA6EFA21E7B38290021385B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +100,9 @@
 				FDEE71D71EE0407500A0DA02 /* WatchpointsViewController.h */,
 				FDEE71D81EE0407500A0DA02 /* WatchpointsViewController.m */,
 				FDC8F5891E6A50EB005FB98C /* Main.storyboard */,
+				FD74317B1EFB0FCD00660299 /* StorageViewController.h */,
+				FD74317C1EFB0FCD00660299 /* StorageViewController.m */,
+				FD7431871EFB117100660299 /* Vendor */,
 				FDC8F58C1E6A50EB005FB98C /* Assets.xcassets */,
 				FDC8F58E1E6A50EB005FB98C /* LaunchScreen.storyboard */,
 				FDC8F5911E6A50EB005FB98C /* Info.plist */,
@@ -168,9 +191,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7431861EFB116B00660299 /* SAMKeychainQuery.m in Sources */,
 				FDC8F5881E6A50EB005FB98C /* LoginViewController.m in Sources */,
 				FDEE71D91EE0407500A0DA02 /* WatchpointsViewController.m in Sources */,
 				FDC8F5851E6A50EB005FB98C /* AppDelegate.m in Sources */,
+				FD74317D1EFB0FCD00660299 /* StorageViewController.m in Sources */,
+				FD7431851EFB116B00660299 /* SAMKeychain.m in Sources */,
 				FDC8F5821E6A50EB005FB98C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

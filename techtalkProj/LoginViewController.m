@@ -10,6 +10,8 @@
 
 @interface LoginViewController  ()
 
+@property (weak, nonatomic) IBOutlet UILabel *descriptionLabel;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UITextField *passField;
 
 @end
@@ -21,7 +23,7 @@
 }
 
 - (IBAction)loginButtonTouched:(id)sender {
-    BOOL result = [self validatePassword: _passField.text];
+    BOOL result = [self validateAccessCode: _passField.text];
     if (result) {
         [self performSegueWithIdentifier:@"success" sender:nil];
     } else {
@@ -29,12 +31,9 @@
     }
 }
 
-- (BOOL)validatePassword:(NSString*) text {
-    if ([text isEqual: @"MyPass"]) {
-        return YES;
-    } else {
-        return NO;
-    }
+- (BOOL)validateAccessCode:(NSString*) text {
+    //Oh no! The login API is broken.
+    return NO;
 }
 
 - (void)displayLoginError {
@@ -48,6 +47,5 @@
     [alert addAction:defaultAction];
     [self presentViewController:alert animated:YES completion:nil];
 }
-
 
 @end
