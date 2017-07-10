@@ -1,29 +1,23 @@
 //
-//  ViewController.m
-//  techtalkProj
+//  LoginDisMemoryViewController.m
+//  DebugTest
 //
-//  Created by Bruno Rocha on 3/3/17.
+//  Created by Bruno Rocha on 7/9/17.
 //  Copyright © 2017 Bruno Rocha. All rights reserved.
 //
 
-#import "LoginViewController.h"
+#import "LoginDisMemoryViewController.h"
 
-@interface LoginViewController  ()
+@interface LoginDisMemoryViewController ()
 
-@property (weak, nonatomic) IBOutlet UILabel *descriptionLabel;
-@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UITextField *passField;
 
 @end
 
-@implementation LoginViewController
-
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-}
+@implementation LoginDisMemoryViewController
 
 - (IBAction)loginButtonTouched:(id)sender {
-    BOOL result = [self validateAccessCode:_passField.text];
+    BOOL result = [_passField.text isEqualToString: @"MyPass"];
     if (result) {
         [self performSegueWithIdentifier:@"success" sender:nil];
     } else {
@@ -31,19 +25,14 @@
     }
 }
 
-- (BOOL)validateAccessCode:(NSString*) text {
-    //Oh no! The login API is broken.
-    return NO;
-}
-
 - (void)displayLoginError {
     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Alert"
-                                                                   message:@"Incorrect code."
+                                                                   message:@"Incorrect password."
                                                             preferredStyle:UIAlertControllerStyleAlert];
 
     UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
                                                           handler:^(UIAlertAction * action) {}];
-    
+
     [alert addAction:defaultAction];
     [self presentViewController:alert animated:YES completion:nil];
 }

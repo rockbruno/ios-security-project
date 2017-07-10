@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FDC8F57C1E6A50EB005FB98C"
-               BuildableName = "techtalkProj.app"
-               BlueprintName = "techtalkProj"
-               ReferencedContainer = "container:techtalkProj.xcodeproj">
+               BuildableName = "DebugTest.app"
+               BlueprintName = "DebugTest"
+               ReferencedContainer = "container:DebugTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FDC8F57C1E6A50EB005FB98C"
-            BuildableName = "techtalkProj.app"
-            BlueprintName = "techtalkProj"
-            ReferencedContainer = "container:techtalkProj.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -56,9 +47,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDC8F57C1E6A50EB005FB98C"
-            BuildableName = "techtalkProj.app"
-            BlueprintName = "techtalkProj"
-            ReferencedContainer = "container:techtalkProj.xcodeproj">
+            BuildableName = "DebugTest.app"
+            BlueprintName = "DebugTest"
+            ReferencedContainer = "container:DebugTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,16 +61,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDC8F57C1E6A50EB005FB98C"
-            BuildableName = "techtalkProj.app"
-            BlueprintName = "techtalkProj"
-            ReferencedContainer = "container:techtalkProj.xcodeproj">
+            BuildableName = "DebugTest.app"
+            BlueprintName = "DebugTest"
+            ReferencedContainer = "container:DebugTest.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

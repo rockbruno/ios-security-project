@@ -7,39 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD74317D1EFB0FCD00660299 /* StorageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD74317C1EFB0FCD00660299 /* StorageViewController.m */; };
-		FD7431851EFB116B00660299 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7431821EFB116B00660299 /* SAMKeychain.m */; };
-		FD7431861EFB116B00660299 /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7431841EFB116B00660299 /* SAMKeychainQuery.m */; };
-		FDA6EFA41E7B38290021385B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA6EFA31E7B38290021385B /* StoreKit.framework */; };
+		FDA81B871F13E74600779A6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFB81F61F13E44C00341488 /* AppDelegate.m */; };
+		FDA81B881F13E74800779A6A /* LoginDisMemoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFB81F21F13E44C00341488 /* LoginDisMemoryViewController.m */; };
+		FDA81B891F13E74A00779A6A /* LoginTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFB81F71F13E44C00341488 /* LoginTwoViewController.m */; };
+		FDA81B8A1F13E74C00779A6A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFB81F51F13E44C00341488 /* LoginViewController.m */; };
+		FDA81B8C1F13E75500779A6A /* PINViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFB81F41F13E44C00341488 /* PINViewController.m */; };
+		FDA81B8D1F13E7A000779A6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFB82021F13E47C00341488 /* LaunchScreen.storyboard */; };
+		FDA81B8E1F13E7B300779A6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFB82011F13E46D00341488 /* Main.storyboard */; };
 		FDC8F5821E6A50EB005FB98C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC8F5811E6A50EB005FB98C /* main.m */; };
-		FDC8F5851E6A50EB005FB98C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC8F5841E6A50EB005FB98C /* AppDelegate.m */; };
-		FDC8F5881E6A50EB005FB98C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC8F5871E6A50EB005FB98C /* LoginViewController.m */; };
-		FDC8F58B1E6A50EB005FB98C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC8F5891E6A50EB005FB98C /* Main.storyboard */; };
-		FDC8F58D1E6A50EB005FB98C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC8F58C1E6A50EB005FB98C /* Assets.xcassets */; };
-		FDC8F5901E6A50EB005FB98C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC8F58E1E6A50EB005FB98C /* LaunchScreen.storyboard */; };
-		FDEE71D91EE0407500A0DA02 /* WatchpointsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEE71D81EE0407500A0DA02 /* WatchpointsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FD74317B1EFB0FCD00660299 /* StorageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageViewController.h; sourceTree = "<group>"; };
-		FD74317C1EFB0FCD00660299 /* StorageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageViewController.m; sourceTree = "<group>"; };
-		FD7431811EFB116B00660299 /* SAMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychain.h; sourceTree = "<group>"; };
-		FD7431821EFB116B00660299 /* SAMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychain.m; sourceTree = "<group>"; };
-		FD7431831EFB116B00660299 /* SAMKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychainQuery.h; sourceTree = "<group>"; };
-		FD7431841EFB116B00660299 /* SAMKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychainQuery.m; sourceTree = "<group>"; };
 		FDA6EFA31E7B38290021385B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		FDC8F57D1E6A50EB005FB98C /* techtalkProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = techtalkProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC8F57D1E6A50EB005FB98C /* DebugTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebugTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC8F5811E6A50EB005FB98C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FDC8F5831E6A50EB005FB98C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FDC8F5841E6A50EB005FB98C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FDC8F5861E6A50EB005FB98C /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		FDC8F5871E6A50EB005FB98C /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		FDC8F58A1E6A50EB005FB98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FDC8F58C1E6A50EB005FB98C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FDC8F58F1E6A50EB005FB98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FDC8F5911E6A50EB005FB98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDEE71D71EE0407500A0DA02 /* WatchpointsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchpointsViewController.h; sourceTree = "<group>"; };
-		FDEE71D81EE0407500A0DA02 /* WatchpointsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchpointsViewController.m; sourceTree = "<group>"; };
+		FDFB81F21F13E44C00341488 /* LoginDisMemoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginDisMemoryViewController.m; sourceTree = "<group>"; };
+		FDFB81F31F13E44C00341488 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDFB81F41F13E44C00341488 /* PINViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINViewController.m; sourceTree = "<group>"; };
+		FDFB81F51F13E44C00341488 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		FDFB81F61F13E44C00341488 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDFB81F71F13E44C00341488 /* LoginTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginTwoViewController.m; sourceTree = "<group>"; };
+		FDFB81F81F13E44C00341488 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDFB81F91F13E44C00341488 /* LoginDisMemoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginDisMemoryViewController.h; sourceTree = "<group>"; };
+		FDFB81FA1F13E44C00341488 /* LoginTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginTwoViewController.h; sourceTree = "<group>"; };
+		FDFB81FB1F13E44C00341488 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FDFB81FC1F13E44C00341488 /* PINViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINViewController.h; sourceTree = "<group>"; };
+		FDFB81FD1F13E45200341488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDFB81FE1F13E45400341488 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDFB82011F13E46D00341488 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FDFB82021F13E47C00341488 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,24 +43,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDA6EFA41E7B38290021385B /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FD7431871EFB117100660299 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				FD7431811EFB116B00660299 /* SAMKeychain.h */,
-				FD7431821EFB116B00660299 /* SAMKeychain.m */,
-				FD7431831EFB116B00660299 /* SAMKeychainQuery.h */,
-				FD7431841EFB116B00660299 /* SAMKeychainQuery.m */,
-			);
-			name = Vendor;
-			sourceTree = "<group>";
-		};
 		FDA6EFA21E7B38290021385B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,7 +60,7 @@
 		FDC8F5741E6A50EB005FB98C = {
 			isa = PBXGroup;
 			children = (
-				FDC8F57F1E6A50EB005FB98C /* techtalkProj */,
+				FDC8F57F1E6A50EB005FB98C /* DebugTest */,
 				FDC8F57E1E6A50EB005FB98C /* Products */,
 				FDA6EFA21E7B38290021385B /* Frameworks */,
 			);
@@ -85,30 +69,32 @@
 		FDC8F57E1E6A50EB005FB98C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FDC8F57D1E6A50EB005FB98C /* techtalkProj.app */,
+				FDC8F57D1E6A50EB005FB98C /* DebugTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FDC8F57F1E6A50EB005FB98C /* techtalkProj */ = {
+		FDC8F57F1E6A50EB005FB98C /* DebugTest */ = {
 			isa = PBXGroup;
 			children = (
-				FDC8F5831E6A50EB005FB98C /* AppDelegate.h */,
-				FDC8F5841E6A50EB005FB98C /* AppDelegate.m */,
-				FDC8F5861E6A50EB005FB98C /* LoginViewController.h */,
-				FDC8F5871E6A50EB005FB98C /* LoginViewController.m */,
-				FDEE71D71EE0407500A0DA02 /* WatchpointsViewController.h */,
-				FDEE71D81EE0407500A0DA02 /* WatchpointsViewController.m */,
-				FDC8F5891E6A50EB005FB98C /* Main.storyboard */,
-				FD74317B1EFB0FCD00660299 /* StorageViewController.h */,
-				FD74317C1EFB0FCD00660299 /* StorageViewController.m */,
-				FD7431871EFB117100660299 /* Vendor */,
-				FDC8F58C1E6A50EB005FB98C /* Assets.xcassets */,
-				FDC8F58E1E6A50EB005FB98C /* LaunchScreen.storyboard */,
-				FDC8F5911E6A50EB005FB98C /* Info.plist */,
+				FDFB81F81F13E44C00341488 /* AppDelegate.h */,
+				FDFB81F61F13E44C00341488 /* AppDelegate.m */,
+				FDFB81F91F13E44C00341488 /* LoginDisMemoryViewController.h */,
+				FDFB81F21F13E44C00341488 /* LoginDisMemoryViewController.m */,
+				FDFB81FA1F13E44C00341488 /* LoginTwoViewController.h */,
+				FDFB81F71F13E44C00341488 /* LoginTwoViewController.m */,
+				FDFB81FB1F13E44C00341488 /* LoginViewController.h */,
+				FDFB81F51F13E44C00341488 /* LoginViewController.m */,
+				FDFB81F31F13E44C00341488 /* main.m */,
+				FDFB82021F13E47C00341488 /* LaunchScreen.storyboard */,
+				FDFB81FC1F13E44C00341488 /* PINViewController.h */,
+				FDFB82011F13E46D00341488 /* Main.storyboard */,
+				FDFB81F41F13E44C00341488 /* PINViewController.m */,
+				FDFB81FE1F13E45400341488 /* Assets.xcassets */,
+				FDFB81FD1F13E45200341488 /* Info.plist */,
 				FDC8F5801E6A50EB005FB98C /* Supporting Files */,
 			);
-			path = techtalkProj;
+			path = DebugTest;
 			sourceTree = "<group>";
 		};
 		FDC8F5801E6A50EB005FB98C /* Supporting Files */ = {
@@ -122,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FDC8F57C1E6A50EB005FB98C /* techtalkProj */ = {
+		FDC8F57C1E6A50EB005FB98C /* DebugTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDC8F5941E6A50EB005FB98C /* Build configuration list for PBXNativeTarget "techtalkProj" */;
+			buildConfigurationList = FDC8F5941E6A50EB005FB98C /* Build configuration list for PBXNativeTarget "DebugTest" */;
 			buildPhases = (
 				FDC8F5791E6A50EB005FB98C /* Sources */,
 				FDC8F57A1E6A50EB005FB98C /* Frameworks */,
@@ -134,9 +120,9 @@
 			);
 			dependencies = (
 			);
-			name = techtalkProj;
+			name = DebugTest;
 			productName = techtalkProj;
-			productReference = FDC8F57D1E6A50EB005FB98C /* techtalkProj.app */;
+			productReference = FDC8F57D1E6A50EB005FB98C /* DebugTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -155,7 +141,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FDC8F5781E6A50EB005FB98C /* Build configuration list for PBXProject "techtalkProj" */;
+			buildConfigurationList = FDC8F5781E6A50EB005FB98C /* Build configuration list for PBXProject "DebugTest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -168,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FDC8F57C1E6A50EB005FB98C /* techtalkProj */,
+				FDC8F57C1E6A50EB005FB98C /* DebugTest */,
 			);
 		};
 /* End PBXProject section */
@@ -178,9 +164,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDC8F5901E6A50EB005FB98C /* LaunchScreen.storyboard in Resources */,
-				FDC8F58D1E6A50EB005FB98C /* Assets.xcassets in Resources */,
-				FDC8F58B1E6A50EB005FB98C /* Main.storyboard in Resources */,
+				FDA81B8E1F13E7B300779A6A /* Main.storyboard in Resources */,
+				FDA81B8D1F13E7A000779A6A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,36 +176,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD7431861EFB116B00660299 /* SAMKeychainQuery.m in Sources */,
-				FDC8F5881E6A50EB005FB98C /* LoginViewController.m in Sources */,
-				FDEE71D91EE0407500A0DA02 /* WatchpointsViewController.m in Sources */,
-				FDC8F5851E6A50EB005FB98C /* AppDelegate.m in Sources */,
-				FD74317D1EFB0FCD00660299 /* StorageViewController.m in Sources */,
-				FD7431851EFB116B00660299 /* SAMKeychain.m in Sources */,
+				FDA81B871F13E74600779A6A /* AppDelegate.m in Sources */,
+				FDA81B891F13E74A00779A6A /* LoginTwoViewController.m in Sources */,
 				FDC8F5821E6A50EB005FB98C /* main.m in Sources */,
+				FDA81B881F13E74800779A6A /* LoginDisMemoryViewController.m in Sources */,
+				FDA81B8C1F13E75500779A6A /* PINViewController.m in Sources */,
+				FDA81B8A1F13E74C00779A6A /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		FDC8F5891E6A50EB005FB98C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDC8F58A1E6A50EB005FB98C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FDC8F58E1E6A50EB005FB98C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDC8F58F1E6A50EB005FB98C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FDC8F5921E6A50EB005FB98C /* Debug */ = {
@@ -318,10 +283,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3PG7SEBUB3;
-				INFOPLIST_FILE = techtalkProj/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DebugTest/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.movile.techtalkProj;
+				PRODUCT_BUNDLE_IDENTIFIER = "-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -332,10 +297,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3PG7SEBUB3;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				INFOPLIST_FILE = techtalkProj/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DebugTest/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.movile.techtalkProj;
+				PRODUCT_BUNDLE_IDENTIFIER = "-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -343,7 +308,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FDC8F5781E6A50EB005FB98C /* Build configuration list for PBXProject "techtalkProj" */ = {
+		FDC8F5781E6A50EB005FB98C /* Build configuration list for PBXProject "DebugTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDC8F5921E6A50EB005FB98C /* Debug */,
@@ -352,7 +317,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDC8F5941E6A50EB005FB98C /* Build configuration list for PBXNativeTarget "techtalkProj" */ = {
+		FDC8F5941E6A50EB005FB98C /* Build configuration list for PBXNativeTarget "DebugTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDC8F5951E6A50EB005FB98C /* Debug */,

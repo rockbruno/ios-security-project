@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:techtalkProj.xcodeproj">
+      location = "self:/Users/bruno.rocha/Desktop/MovileRepos/ios-security-debug/DebugTest.xcodeproj">
    </FileRef>
 </Workspace>
