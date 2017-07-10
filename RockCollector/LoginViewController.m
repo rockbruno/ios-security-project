@@ -23,7 +23,7 @@
 }
 
 - (IBAction)loginButtonTouched:(id)sender {
-    BOOL result = [self validateAccessCode: _passField.text];
+    BOOL result = [self validateAccessCode:_passField.text];
     if (result) {
         [self performSegueWithIdentifier:@"success" sender:nil];
     } else {
@@ -38,7 +38,7 @@
 
 - (void)displayLoginError {
     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Alert"
-                                                                   message:@"Incorrect password."
+                                                                   message:@"Incorrect code."
                                                             preferredStyle:UIAlertControllerStyleAlert];
 
     UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
